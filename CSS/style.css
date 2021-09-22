@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #23272a;
+}
+
+header{
+  height: 80px;
+  background-color: #3161E0;
+  line-height: 80px;
+}
+
+.container{
+  width: 90%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.btn{
+  font-size: 16px;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 40px;
+  background-color: white;
+  text-decoration: none;
+}
+
+.btn.big{
+  font-size: 18px;
+  padding: 15px 20px;
+}
+
+.btn.black{
+  background-color: black;
+  color: white;
+}
+
+.btn:hover{
+  color: steelblue;
+}
+
+.logo, .main-nav{
+  float: left;
+}
+
+.logo img{
+  vertical-align: middle;
+}
+
+.main-nav{
+  width: calc(100% - 202px);
+  text-align: center;
+}
+
+.main-nav ul{
+  list-style: none;
+}
+
+.main-nav ul li{
+  padding: 0 15px;
+  display: inline-block;
+}
+
+.main-nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.main-nav ul li a:hover{
+  text-decoration: underline;
+}
+
+#accedi{
+  float: right;
+}
+
+.junbotron{
+  height: 547px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+}
+
+.junbotron .container{
+  max-width: 800px;
+  color: white;
+  text-align: center;
+  padding-top: 100px ;
+}
+
+.junbotron h1{
+  font-size: 53px;
+  margin-bottom: 40px;
+}
+
+.junbotron p{
+  margin-bottom: 30px;
+  line-height: 35px;
+}
+
+.junbotron .btn:first-of-type{
+  margin-right: 20px;
+}
+
+/* MAIN */
+
+.top{
+  height: 547px;
+  padding: 30px;
+}
+
+.gray{
+  background-color:#f6f6f6;
+  background-size: 100vw;
+}
+
+.c-3{
+  height: 750px;
+  text-align: center;
+  padding: 30px;
+}
+
+.images{
+  float: left;
+}
+
+.image-right{
+  float: right;
+}
+
+.description{
+  float: right;
+  width: 30%;
+}
+
+
+.adventure{
+  background-image: url(../img/stars.svg);
+  margin-bottom: 40px;
+}
+
+/* FOOTER */
+
+footer{
+  width: 100%;
+  height: 400px;
+  background-color: #23272a;
+}
+
+
+
